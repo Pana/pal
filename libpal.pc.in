@@ -1,0 +1,10 @@
+prefix=@prefix@
+exec_prefix=@exec_prefix@
+libdir=@libdir@
+includedir=@includedir@
+
+Name: libpal
+Description: Automated Placement of Labels
+Version: @VERSION@
+Libs -L${libdir} -lpal @LIBICONV@
+Cflags: -I${includedir}/pal

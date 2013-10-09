@@ -1,0 +1,20 @@
+TODO list
+==========
+ 
+  * create a pal::PointSet::simplify() that reduce the # of points of a line or a polygon
+    depending on scale and dpi 
+        expected effect => reduce the comptational time when setting polygons candidates costs
+        this method should replace a part of the pal::util::extractXYCoord
+
+  * check the behaviour of P_FREE polygon candidates when label height is bigger than its width
+    -> change angle choice in pal::Feature::setCandidatesForPolygon
+
+  * write new method for minimal bounding box adjustment
+    -> on segment of the box is coolinear with a convex hull geometry segment
+
+  * Building jpal library should also create a ch.heigvd.jpal.jar (10/20/08)
+
+  * Test JPal
+
+  * Add support for various unit (meters, yards, degree?, etc)
+

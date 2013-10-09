@@ -1,0 +1,20 @@
+Compatibility notes
+===================
+
+Pal requires:
+   >=geos-3.0.0
+
+Quickstart
+==========
+
+as root:
+   ./configure
+   make 
+   make install
+
+
+Configure options
+================
+   --enable-test : build a test program and install some scripts that allow to label maps defined in flat text file
+
+   --enable-svgmap : each time the lib create a map (e.g the Pal::labeller method), a svg file called pal-map.svg is created in current directory

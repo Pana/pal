@@ -1,0 +1,262 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head>
+<link rel="stylesheet" type="text/css" href="modules/Album/css/stylesheet.css" />
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-10624740-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="Distribution" content="Global" />
+<meta name="Robots" content="index,follow" />
+
+
+<base href="http://pal<!--.heig-vd.ch/" />-->
+
+<!-- Add code here that should appear in the metadata section of all new pages -->
+
+<script type="text/javascript" language="javascript" src="uploads/template/js/lytebox/lytebox.js"></script>
+<link rel="stylesheet" href="uploads/template/js/lytebox/lytebox.css" type="text/css" media="screen" />
+
+<link rel="stylesheet" type="text/css" media="all" href="stylesheet-cssid=51&mediatype=all.php" />
+
+
+<title>PAL Labeling Library - Take a tour</title>
+	
+
+</head>
+<body>
+<!-- wrap starts here -->
+<div id="wrap">
+		
+	<!--header -->
+	<div id="header">			
+				
+		<h1 id="logo-text"><a href="index.html">PAL</a></h1>		
+		<p id="slogan">Automated Label Placement</p>		
+			
+		<div id="header-links">
+			<p>
+			<a href="index.html">Home</a> | 
+			<a href="index.php-page=contact.html">Contact</a>		
+			</p>		
+		</div>		
+
+<div class="pal-mountain"> </div>			
+	</div>
+		
+	<!-- navigation -->	
+	<div  id="menu">
+		<!--<ul>
+			<li id="current"><a href="http://pal.heig-vd.ch/index.html">Home</a></li>
+			<li><a href="http://pal.heig-vd.ch/index.html">Archives</a></li>
+			<li><a href="http://pal.heig-vd.ch/index.html">Downloads</a></li>
+
+			<li><a href="http://pal.heig-vd.ch/index.html">Services</a></li>
+			<li><a href="http://pal.heig-vd.ch/index.html">Support</a></li>
+			<li><a href="http://pal.heig-vd.ch/index.html">About</a></li>		
+		</ul>-->
+ 
+<ul class="clearfix">
+
+<li><a href="index.html"> Home </a>
+
+
+</li>
+
+<li id="current"><a href="index.php-page=about-pal.html" > Take a tour </a>
+
+
+</li>
+
+<li><a href="index.php-page=existing-integrations.html"> Try it </a>
+
+
+</li>
+
+<li><a href="index.php-page=download.html"> Download </a>
+
+
+</li>
+
+<li><a href="index.php-page=support.html"> Documentation </a>
+
+
+</li>
+
+<li><a href="index.php-page=community.html"> Community </a>
+
+
+</li>
+
+<li><a href="index.php-page=pal-project.html"> About </a>
+
+
+
+</li>
+</ul>
+
+	</div>					
+			
+	<!-- content-wrap starts here -->
+	<div id="content-wrap">
+		
+		<div id="main">				
+				
+			  <h1>Take a tour</h1>
+                          <p>Designed for multilayers and real-time labeling of maps, PAL provides impressive results, both in terms of execution time and solution quality. It uses <a title="Go to wikipedia" href="http://en.wikipedia.org/wiki/Combinatorial_optimization">combinatorial optimization</a> approaches to maximize number of displayed labels (in opposition to <a title="Go to wikipedia" href="http://en.wikipedia.org/wiki/Greedy_algorithm">greedy approaches</a>). PAL is useful for polygon, line, point features labeling, and numerous options can be set for each layer to customize the labeling process.</p>
+<p><strong>See below several scenarios describing what PAL offers, or </strong><strong><a href="index.php-page=existing-integrations.html" title="Actual PAL integrations" >give it a try</a>  using one of the GIS software having PAL inside.</strong></p>
+<h2 class="scenario-part">For polygons</h2>
+<div style="text-align: center;">
+<table style="display:inline-block" border="0">
+<tbody style="text-align: center;">
+<tr style="text-align: center;">
+<td class="scenario-title" style="text-align: center;"><img title="Centroid" src="uploads/images/poly-ppt.png" alt="" /></td>
+<td class="scenario-title" style="text-align: center;"><img title="On perimeter" src="uploads/images/poly-pl.png" alt="" /></td>
+<td class="scenario-title" style="text-align: center;"><img title="Around perimeter" src="uploads/images/poly-pla.png" alt="" /></td>
+<td class="scenario-title" style="text-align: center;"><img title="Horizontal" src="uploads/images/poly-ph.png" alt="" /></td>
+<td class="scenario-title" style="text-align: center;"><img title="Free" src="uploads/images/poly-pf.png" alt="" /></td>
+</tr>
+</tbody>
+</table>
+<br /> <span> Available options : around centroid, on perimeter, around perimeter, horizontal, free </span></div>
+<p class="scenario"><span><img src="uploads/images/scenarii/250x250/notaroundcentroid1.png" alt="" /> <span> without PAL, labels strictly on centroids and overlay </span></span> <span> <img src="uploads/images/scenarii/250x250/notaroundcentroid1_pal.png" alt="" /> <span> with PAL, option horizontal, labels are <strong>not strictly on the centroid</strong>, rather at best over the feature </span> </span></p>
+<p class="clear" style="height: 10px;"> </p>
+<p class="scenario"><span><img src="uploads/images/scenarii/250x250/polygonfree.png" alt="" /> <span> without PAL, labels strictly on centroids and overlap </span></span> <span> <img src="uploads/images/scenarii/250x250/polygonfree_pal.png" alt="" /> <span> with PAL, each label <strong>fits main orientation of shape</strong> </span></span></p>
+<p class="clear" style="height: 10px;"> </p>
+<p class="scenario"><span><img src="uploads/images/scenarii/250x250/dynamic.png" alt="" /> <span>with PAL, features are cropped against map extent</span></span> <span> <img src="uploads/images/scenarii/250x250/dynamic2.png" alt="" /> <span>with Pal, labels always appear on the map even if most part of feature is outside of the map </span> </span></p>
+<p class="clear" style="height: 10px;"> </p>
+<p class="scenario"><span> <img src="uploads/images/scenarii/250x250/obstacle.png" alt="" /> <span> without PAL, labels strictly on centroids, overlap each other and overlap gray building </span></span> <span><img src="uploads/images/scenarii/250x250/obstacle_pal.png" alt="" /> <span> with PAL, layer of buildings is set as <strong>an obstacle layer so as no label overlap its features</strong> </span></span></p>
+<p class="clear" style="height: 10px;"> </p>
+<p class="scenario"><span><img src="uploads/images/scenarii/250x250/cp_multilayer.png" alt="" /> <span>without PAL, labels overlap each other within same layer and with labels from other layer </span></span> <span><img src="uploads/images/scenarii/250x250/cp_multilayer_pal.png" alt="" /> <span> with PAL, number of displayed labels is maximized with no overlap, even with labels of others layers </span></span></p>
+<p class="clear" style="height: 10px;"> </p>
+<p class="scenario"><span> <img src="uploads/images/scenarii/250x250/priority.png" alt="" /> <span>with PAL, multilayer labeling situation with same priority for each layer </span> </span> <span><img src="uploads/images/scenarii/250x250/priority_pal.png" alt="" /> <span> with PAL, multilayer labeling situation with higher priority on violet labels so as there are  <strong>more labels for buildings then underlying parcels</strong> </span> </span></p>
+<p class="clear" style="height: 10px;"> </p>
+<h2 class="scenario-part">For Lines</h2>
+<div style="text-align : center">
+<table style="display:inline-block" border="0">
+<tbody style="text-align: left;">
+<tr style="text-align: left;">
+<td class="scenario-title" style="text-align: left;"><img title="On the line" src="uploads/images/line_pla.png" alt="" /></td>
+<td class="scenario-title" style="text-align: center;"><img title="Around the line" src="uploads/images/line_pl.png" alt="" /></td>
+</tr>
+</tbody>
+</table>
+<br /> <span>Available options : on the line, around the line</span></div>
+<p class="scenario"><span> <img src="uploads/images/scenarii/250x250/polylinearound.png" alt="" /> <span>wihtout PAL, labels stricly on centroids and overlap</span> </span> <span> <img src="uploads/images/scenarii/250x250/polylinearound_pal.png" alt="" /> <span>with PAL, <strong> labels around the line </strong>so as to maximize the number of displayed labels </span> </span></p>
+<p class="clear" style="height: 10px;"> </p>
+<h2 class="scenario-part">For Points</h2>
+<div style="text-align: center;">
+<table style="display:inline-block" border="0">
+<tbody style="text-align: center;">
+<tr style="text-align: center;">
+<td class="scenario-title" style="text-align: center;"><img title="Around the point" src="uploads/images/pt_ppt.png" alt="" /></td>
+</tr>
+</tbody>
+</table>
+<br /> <span>One option : around the point, four candidate positions are considered</span></div>
+<p class="scenario"><span> <img src="uploads/images/scenarii/250x250/pointaround.png" alt="" /> <span>without PAL, labels on centroids with only one position considered (up-right) and overlap </span> </span> <span><img src="uploads/images/scenarii/250x250/pointaround_pal.png" alt="" /> <span>with PAL,  <span>labels around the point </span> so as to maximize the number of displayed labels (also no overlap with the symbol) </span></span></p>
+<p class="clear" style="height: 10px;"> </p>	
+				
+			<br />	
+
+		</div>
+
+		
+			
+		 <div id="sidebar" style="display:none">
+			
+			 <form id="cntnt01moduleform_1" method="get" action="http://pal.heig-vd.ch/index.php?page=about-pal">
+<div class="hidden">
+<input type="hidden" name="mact" value="Search,cntnt01,dosearch,0" />
+<input type="hidden" name="cntnt01returnid" value="56" />
+</div>
+
+
+<!--<label for="cntnt01searchinput">Recherche:&nbsp;</label>--><input type="text" class="search-input" id="cntnt01searchinput" name="cntnt01searchinput" size="20" maxlength="50" value="Enter Search..." onfocus="if(this.value==this.defaultValue) this.value='';" onblur="if(this.value=='') this.value=this.defaultValue;"/><input class="button" name="submit" value="OK" Envoyer="Envoyer" style="margin-left:5px" type="submit" />
+
+</form>
+
+
+                       
+
+<ul class="sidemenu">
+
+
+<li><a href="index.html"><span>Home</span></a>
+
+
+</li>
+
+
+<li class="currentpage"><span>Take a tour</span>
+
+
+</li>
+
+
+<li><a href="index.php-page=existing-integrations.html"><span>Try it</span></a>
+
+
+</li>
+
+
+<li><a href="index.php-page=download.html"><span>Download</span></a>
+
+
+</li>
+
+
+<li><a href="index.php-page=support.html"><span>Documentation</span></a>
+
+
+</li>
+
+
+<li><a href="index.php-page=community.html"><span>Community</span></a>
+
+
+</li>
+
+
+<li><a href="index.php-page=pal-project.html"><span>About</span></a>
+
+
+</li>
+</ul>
+
+
+		</div> 
+
+				
+	<!-- content-wrap ends here -->	
+	</div>
+					
+	<!--footer starts here-->
+	<div id="footer">
+			
+		<p>
+		&copy; 2009 <strong><a href="http://www.heig-vd.ch/">Heig-VD</a></strong> | 
+		Design by: <a href="http://www.styleshout.com/">styleshout</a> | 
+		Valid <a href="http://validator.w3.org/check?uri=referer">XHTML</a> | 
+		<a href="http://jigsaw.w3.org/css-validator/check/referer">CSS</a>   		
+   	</p>
+
+				
+	</div>	
+
+<!-- wrap ends here -->
+</div>
+
+</body>
+</html><!-- 0.170674 / 28 / 8981480 / 9370680 -->

@@ -1,0 +1,262 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head>
+<link rel="stylesheet" type="text/css" href="modules/Album/css/stylesheet.css" />
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-10624740-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="Distribution" content="Global" />
+<meta name="Robots" content="index,follow" />
+
+
+<base href="http://pal<!--.heig-vd.ch/" />-->
+
+<!-- Add code here that should appear in the metadata section of all new pages -->
+<link rel="stylesheet" type="text/css" media="all" href="stylesheet-cssid=51&mediatype=all.php" />
+
+
+<title>PAL Labeling Library - Actual PAL integrations</title>
+	
+
+</head>
+<body>
+<!-- wrap starts here -->
+<div id="wrap">
+		
+	<!--header -->
+	<div id="header">			
+				
+		<h1 id="logo-text"><a href="index.html">PAL</a></h1>		
+		<p id="slogan">Automated Label Placement</p>		
+			
+		<div id="header-links">
+			<p>
+			<a href="index.html">Home</a> | 
+			<a href="index.php-page=contact.html">Contact</a>		
+			</p>		
+		</div>		
+
+<div class="pal-mountain"> </div>			
+	</div>
+		
+	<!-- navigation -->	
+	<div  id="menu">
+		<!--<ul>
+			<li id="current"><a href="http://pal.heig-vd.ch/index.html">Home</a></li>
+			<li><a href="http://pal.heig-vd.ch/index.html">Archives</a></li>
+			<li><a href="http://pal.heig-vd.ch/index.html">Downloads</a></li>
+
+			<li><a href="http://pal.heig-vd.ch/index.html">Services</a></li>
+			<li><a href="http://pal.heig-vd.ch/index.html">Support</a></li>
+			<li><a href="http://pal.heig-vd.ch/index.html">About</a></li>		
+		</ul>-->
+ 
+<ul class="clearfix">
+
+<li><a href="index.html"> Home </a>
+
+
+</li>
+
+<li><a href="index.php-page=about-pal.html"> Take a tour </a>
+
+
+</li>
+
+<li id="current"><a href="index.php-page=existing-integrations.html" > Try it </a>
+
+
+</li>
+
+<li><a href="index.php-page=download.html"> Download </a>
+
+
+</li>
+
+<li><a href="index.php-page=support.html"> Documentation </a>
+
+
+</li>
+
+<li><a href="index.php-page=community.html"> Community </a>
+
+
+</li>
+
+<li><a href="index.php-page=pal-project.html"> About </a>
+
+
+
+</li>
+</ul>
+
+	</div>					
+			
+	<!-- content-wrap starts here -->
+	<div id="content-wrap">
+		
+		<div id="main">				
+				
+			  <h1>Actual PAL integrations</h1>
+                          <p>Below are listed projects using PAL labeling library. Try them to better feel what PAL offers !</p>
+<h2>extJPal for gvSIG 1.x (&lt; 1.9)</h2>
+<table border="0">
+<tbody>
+<tr>
+<td style="text-align:center" width="100"><img src="uploads/images/gvsig-logo.gif" alt="" /></td>
+<td>
+<p>This is an extension for gvSIG, codename extJPAL. It has been developed during the intiial PAL project as a proof of concept so as to deliver more than just placement algorithms. Also did it stay an experimental release and bugs can be reported. Notice, as gvSIG is written for Java platform, extJPAL makes use of JPAL JNI wrapper.</p>
+<p>For more technical informations, see <a title="extJPal trac" href="http://geosysin.iict.ch/extjpal-trac" target="_blank">trac page of extJPal</a>.</p>
+<p>Watch <a href="http://pal.heig-vd.ch/uploads/extJPAL-experimental-screencast.ogv">extJPAL screencast</a>.</p>
+<p>Download <a title="extjPAL gvSIG" href="http://www.gvsig.org/web/plugins/downloads/pal-automated-placement-of-labels" target="_blank">extJPAL extension</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h2>PAL inside Quantum GIS</h2>
+<table border="0">
+<tbody>
+<tr>
+<td style="text-align:center" width="100"><img src="uploads/images/qgis-logo.png" alt="" /></td>
+<td>
+<p>Quantum GIS uses PAL both for diagram and label lacement on a map. Integration for the diagram overlay has been implemented by Marco Hugentobler and integration for the labels has been done by Martin Dobias, during his Google Summer of Code 2009 (see his <a title="GSoC09" href="http://www.qgis.org/wiki/Label_Placement_GSoC_2009">reports page</a>).</p>
+<p>Martin did also great improvements on the core library</p>
+<p>See the <a title="QGIS" href="http://www.qgis.org" target="_blank">Quantum GIS website</a> for more information.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h2>wpsPAL :: standard-based cartographic web service for label placement</h2>
+<table border="0">
+<tbody>
+<tr>
+<td style="text-align:center" width="100"><img src="uploads/images/wpsPAL_kindoflogo.jpg" alt="" width="75" height="139" /></td>
+<td>
+<p>The idea behind such a service is to offer through a standard-based web interface an access to the power of the PAL library. Thanks to a work of diploma, wpsPAL is a prototype which implements an approach designed at HEIG-VD. For more information, see below.</p>
+<p><a href="uploads/wpsPAL_affiche_finale.pdf">Work of diploma poster</a> (HEIG-VD / Comem+).</p>
+<p><em>"Towards an automated label placement service"</em>, O. Ertz, M. Laurent, D. Rappo, E. Taillard, Geospatial Free and Open Source Software in the 21st Century Lectures Notes in Geoinformation and Cartography (LNG&amp;C) series, Springer-Verlag (to be published).</p>
+<p>Want to give it a try ? Just <a href="index.php-page=contact.html" title="Contact" >contact us</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<h2>Soon PAL inside MapWindow ?</h2>
+<table border="0">
+<tbody>
+<tr>
+<td style="text-align:center" width="100"><img src="uploads/images/mapwin.png" alt="" width="48" height="48" /></td>
+<td>
+<p>According to <a href="http://www.mapwindow.org/phorum/read.php?5,12798" target="_blank">this post</a>, something is planned for improving label placement  within MapWindow, and it seems PAL is seriously considered ... hope to see it soon ! If you are interested, just send an email on MapWindow forum.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 464px; width: 1px; height: 1px; overflow: hidden;"><!-- p  -->
+<p style="margin-bottom: 1.17in; line-height: 0.24in; page-break-inside: avoid; page-break-before: always; page-break-after: avoid;" align="LEFT"><span style="font-family: Helvetica,Arial,sans-serif;"><span style="font-size: medium;"><strong>Towards an automated label placement service</strong></span></span></p>
+</div>	
+				
+			<br />	
+
+		</div>
+
+		
+			
+		 <div id="sidebar" style="display:none">
+			
+			 <form id="cntnt01moduleform_1" method="get" action="http://pal.heig-vd.ch/index.php?page=existing-integrations">
+<div class="hidden">
+<input type="hidden" name="mact" value="Search,cntnt01,dosearch,0" />
+<input type="hidden" name="cntnt01returnid" value="61" />
+</div>
+
+
+<!--<label for="cntnt01searchinput">Recherche:&nbsp;</label>--><input type="text" class="search-input" id="cntnt01searchinput" name="cntnt01searchinput" size="20" maxlength="50" value="Enter Search..." onfocus="if(this.value==this.defaultValue) this.value='';" onblur="if(this.value=='') this.value=this.defaultValue;"/><input class="button" name="submit" value="OK" Envoyer="Envoyer" style="margin-left:5px" type="submit" />
+
+</form>
+
+
+                       
+
+<ul class="sidemenu">
+
+
+<li><a href="index.html"><span>Home</span></a>
+
+
+</li>
+
+
+<li><a href="index.php-page=about-pal.html"><span>Take a tour</span></a>
+
+
+</li>
+
+
+<li class="currentpage"><span>Try it</span>
+
+
+</li>
+
+
+<li><a href="index.php-page=download.html"><span>Download</span></a>
+
+
+</li>
+
+
+<li><a href="index.php-page=support.html"><span>Documentation</span></a>
+
+
+</li>
+
+
+<li><a href="index.php-page=community.html"><span>Community</span></a>
+
+
+</li>
+
+
+<li><a href="index.php-page=pal-project.html"><span>About</span></a>
+
+
+</li>
+</ul>
+
+
+		</div> 
+
+				
+	<!-- content-wrap ends here -->	
+	</div>
+					
+	<!--footer starts here-->
+	<div id="footer">
+			
+		<p>
+		&copy; 2009 <strong><a href="http://www.heig-vd.ch/">Heig-VD</a></strong> | 
+		Design by: <a href="http://www.styleshout.com/">styleshout</a> | 
+		Valid <a href="http://validator.w3.org/check?uri=referer">XHTML</a> | 
+		<a href="http://jigsaw.w3.org/css-validator/check/referer">CSS</a>   		
+   	</p>
+
+				
+	</div>	
+
+<!-- wrap ends here -->
+</div>
+
+</body>
+</html><!-- 0.423401 / 28 / 8973816 / 9369952 -->
